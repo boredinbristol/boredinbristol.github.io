@@ -1,17 +1,24 @@
-h1{
+body{
+	background-color: #C9D8E5;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
-	text-align: center;
+}
 
+h1{
+	text-align: center;
+	color: #224F75;
+	font-weight: bold;
+	font-size: 50px;
 }
 
 h2{ 
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	text-align: center;
+	color: #224F75
 }
 
 p{
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	text-align: center;
+	color: #083154;
+	padding: 0px 50px 0px;
 }
 
 #title-bar ul{
@@ -22,4 +29,8 @@ p{
 
 #title-bar li{
 	display:inline-block;
+}
+
+.content-page img{
+	padding-top: 75px
 }
