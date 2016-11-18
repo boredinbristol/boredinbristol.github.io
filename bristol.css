@@ -34,3 +34,9 @@ p{
 .content-page img{
 	padding-top: 75px
 }
+
+#main-page p{
+	padding: 25px 50px 10px;
+	font-size: 20px;
+	font-style: italic;
+}
