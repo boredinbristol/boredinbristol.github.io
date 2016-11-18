@@ -1,13 +1,17 @@
+@font-face {
+    font-family: "dk_hofstad";
+    src: url(dk_hofstad/dk_hofstad.otf);
+}
 body{
 	background-image: url("background.jpg");
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 h1{
+	font-family: "dk_hofstad";
 	text-align: center;
 	color: #224F75;
-	font-weight: bold;
-	font-size: 50px;
+	font-size: 75px;
 }
 
 h2{ 
@@ -22,6 +26,7 @@ p{
 }
 
 #title-bar ul{
+	text-align: center;
 	margin: 0;
 	list-style-type: none;
 	padding: 0;
